@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="bg-yellow-800 px-6 py-7 sticky items-center">
+        <div
+          class="flex max-w-[1500px] items-center justify-between text-gray-100 m-auto"
+        >
+          <a href="nav.html">
+            <i class="bi bi-list text-3xl"></i>
+          </a>
+          <a href="index.html">
+            <h1 class="font-bold text-[22px] tracking-[0.2em] text-[white]">
+              IMPULSE
+            </h1>
+          </a>
+          <a href="contact.html">
+            <i class="bi bi-envelope text-3xl"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <section class="py-12 px-6">
+      <h1 class="text-center text-5xl mt-20 text-gray-700 font-bold font-sans mb-15">Get in touch</h1>
+      <div class="flex flex-col lg:flex-row lg:gap-50 justify-center">
+        <div>
+          <a href="#" class="flex gap-2 mb-6">
+            <i class="opacity-[0.4] bi bi-telephone"></i>
+            <p>01632 960192</p>
+          </a>
+          <a href="#"  class="flex gap-2 mb-6">
+            <i class="opacity-[0.4] bi bi-envelope"></i>
+            <p>uthmanajanaku@outlook.com</p>
+          </a>
+          <a href="#"  class="flex gap-2 mb-6">
+            <i class="opacity-[0.4] bi bi-clock"></i>
+            <p>MON-SAT, 9-5 | SUN, 10-4</p>
+          </a>
+          <a href="#"  class="flex gap-2 mb-6">
+            <i class="opacity-[0.4] bi bi-geo-alt"></i>
+            <p>2321 Wildwood Street, OH, 45503</p>
+          </a>
+        </div>
+        <form class="w-[100%] max-w-[750px] lg:max-w-[450px]">
+            <label for="name" class="block mb-3">Name</label>
+            <input type="text" id="name" placeholder="Name" class="block w-full outline-0 bg-gray-100 p-4 text-[14px] mb-4">
+            <label for="email" class="block  mb-3">Email Address</label>
+            <input type="email" id="email" placeholder="your@email.com" class="block w-full outline-0 bg-gray-100 p-4 text-[14px] mb-4">
+            <label for="msg" class="block  mb-3">Message</label>
+            <textarea id="msg" class="block w-full h-16 outline-0 bg-gray-100 p-4 text-[14px] mb-4 opacity-[0.5]">Your Message</textarea>
+            <button type="submit" class="border border-[2px] border-none bg-yellow-900 text-[white] py-5 px-5 text-[12px] tracking-[0.2em] inline-block flex-none w-fit mt-5 cursor-pointer">SEND A MESSAGE</button>
+        </form>
+      </div>
+    </section>
+    <footer class="bg-gray-700 mx-auto py-25">
+      <div class="px-12 flex flex-col lg:flex-row lg:justify-between lg:items-center lg:text-start lg:max-w-[1500px] mx-auto space-y-10 justify-center items-center text-center lg:items-start">
+      <h1 class="font-bold text-3xl text-gray-500 tracking-widest lg:text-4xl">IMPULSE</h1>
+        <div class="flex flex-col space-y-4 tracking-wide">
+          <h1 class="text-gray-300 font-bold">MORE INFO</h1>
+          <a href="index.html" class="block text-gray-500 text-[13px]">ABOUT</a>
+          <a href="index.html" class="block text-gray-500 text-[13px]">INFO</a>
+          <a href="index.html" class="block text-gray-500 text-[13px]">FAQ</a>
+        </div>
+        <div class="flex flex-col space-y-4">
+          <h1 class="text-gray-300 font-bold">HELPFUL LINKS</h1>
+          <a href="index.html" class="block text-gray-500 text-[13px]">ABOUT</a>
+          <a href="index.html" class="block text-gray-500 text-[13px]">INFO</a>
+          <a href="index.html" class="block text-gray-500 text-[13px]">FAQ</a>
+        </div>
+        <div class="flex flex-col space-y-4">
+          <h1 class="text-gray-300 font-bold">FIND OUT MORE</h1>
+          <a href="index.html" class="block text-gray-500 text-[13px]">ABOUT</a>
+          <a href="index.html" class="block text-gray-500 text-[13px]">INFO</a>
+          <a href="index.html" class="block text-gray-500 text-[13px]">FAQ</a>
+        </div>
+      </div>
+      <h1 class="text-center text-gray-400 mt-16 text-[13px] lg:mt-8 lg:text-[16px]">
+        &copy;2025 DESIGN BY UTHMAN. IMAGES BY UNSPLASH
+      </h1>
+    </footer>
+  </body>
+</html>
