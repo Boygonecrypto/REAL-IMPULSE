@@ -1,9 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
 .section1 {
   background-image: url("images/background\ image\ 1.avif");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
 }
 .section2 a:hover {
   color: white;
